@@ -1,0 +1,38 @@
+[
+    {
+        "Nombre": "Proyecto 1",
+        "Descripción": "Descripción del proyecto 1",
+        "Imagen": [
+            "https://example.com/imagen1.jpg",
+            "https://example.com/imagen2.jpg",
+            "https://example.com/imagen3.jpg"
+        ],
+        "Tecnologías": ["HTML", "CSS", "JavaScript"],
+        "EnlaceProyecto": "https://example.com/proyecto1",
+        "Repositorio": "https://github.com/usuario/proyecto1",
+        "Fecha": "2023-01-01"
+    },
+    {
+        "Nombre": "Proyecto 2",
+        "Descripción": "Descripción del proyecto 2",
+        "Imagen": [
+            "https://example.com/imagen4.jpg",
+            "https://example.com/imagen5.jpg"
+        ],
+        "Tecnologías": ["React", "Node.js", "MongoDB"],
+        "EnlaceProyecto": "https://example.com/proyecto2",
+        "Repositorio": "https://github.com/usuario/proyecto2",
+        "Fecha": "2023-05-15"
+    },
+    {
+        "Nombre": "Proyecto 3",
+        "Descripción": "Descripción del proyecto 3",
+        "Imagen": [
+            "https://example.com/imagen6.jpg"
+        ],
+        "Tecnologías": ["Python", "Django", "PostgreSQL"],
+        "EnlaceProyecto": "https://example.com/proyecto3",
+        "Repositorio": "https://github.com/usuario/proyecto3",
+        "Fecha": "2022-11-20"
+    }
+]
