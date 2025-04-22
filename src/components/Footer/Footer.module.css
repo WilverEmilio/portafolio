@@ -1,0 +1,114 @@
+.footer {
+    background-color: #fefafa;
+    padding: 2rem;
+    border: 2px solid #0b72b9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .left {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .right {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .infoList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+  
+  .infoList li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    color: #000;
+  }
+  
+  .infoList li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .socialIcons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  .right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: #000;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .inlineFields {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .inlineFields input {
+    flex: 1;
+    padding: 0.5rem;
+    border: none;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    padding: 0.5rem;
+    border: none;
+    background-color: #ddd;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    background-color: #55f42e;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  button:hover {
+    background-color: #4dd028;
+  }
+  
+  .copy {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+  }
