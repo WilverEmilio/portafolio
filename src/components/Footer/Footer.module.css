@@ -34,3 +34,16 @@
   gap: 1rem;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .left, .socialIcons {
+    justify-content: center;
+    width: 100%;
+  }
+}
