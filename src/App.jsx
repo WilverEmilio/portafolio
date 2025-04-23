@@ -9,6 +9,7 @@ import './App.css'
 
 function App() {
   return (
+    <div class="container">
     <Router>
       <Header />
       <Routes>
@@ -19,6 +20,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </div>
   )
 }
 
