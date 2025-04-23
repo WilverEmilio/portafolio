@@ -1,4 +1,4 @@
-import proyectos from "../../assets/proyectos.json";
+import proyectos from "../../assets/Json/proyectos.json";
 import styles from "./Project.module.css";
 const Projects = () => {
     return (

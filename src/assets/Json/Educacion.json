@@ -1,0 +1,22 @@
+[
+    {
+        "Nombre": "Ingeniería en Sistemas Computacionales",
+        "Lugar": "Universidad Mesoamericana",
+        "Año": "(2020 - 2024)"
+    },
+    {
+        "Nombre": "Certificado en React", 
+        "Lugar": "CodigoFacilito",
+        "Año": "(2024)"
+    }, 
+    {
+        "Nombre": "Certificado en FastAPI",
+        "Lugar": "CodigoFacilito",
+        "Año": "(2025)"
+    },
+    {
+        "Nombre": "Ingles Básico",
+        "Lugar": "Academia Europea",
+        "Año": "(2025)"
+    }
+]

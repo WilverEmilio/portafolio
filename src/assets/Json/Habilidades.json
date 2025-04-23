@@ -1,0 +1,59 @@
+[
+    {
+        "Nombre": "JavaScript",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "HTML",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "CSS",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "React",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "Node.js",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "Python",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "Django",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "FastAPI",
+        "Nivel": "Básico"
+    },
+    {
+        "Nombre": "PostgreSQL",
+        "Nivel": "Básico"
+    },
+    {
+        "Nombre": "MongoDB",
+        "Nivel": "Básico"
+    }
+    ,
+    {
+        "Nombre": "Git",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "GitHub",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "Figma",
+        "Nivel": "Intermedio"
+    },
+    {
+        "Nombre": "Inglés",
+        "Nivel": "Básico"
+    }
+]

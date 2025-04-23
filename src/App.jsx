@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
   return (
-    <div class="container">
+    // <div class="container"> Esto es para el fondo, a mi parecer lo voy a cambiar
     <Router>
       <Header />
       <Routes>
@@ -20,7 +20,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-    </div>
+    // </div>
   )
 }
 
