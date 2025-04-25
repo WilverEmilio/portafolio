@@ -1,3 +1,8 @@
+import educacion from '../../assets/Json/Educacion.json';
+import habilidades from '../../assets/Json/Habilidades.json';
+import intereses from '../../assets/Json/Intereses.json';
+import styles from './About.module.css';
+
 const About = () => {
     return (
       <section className="about">
@@ -18,34 +23,33 @@ const About = () => {
           </div>
 
         <h1>Educación</h1>
-        <ul className="education-list">
-          <li>Ingeniería en Sistemas - Universidad Mesoamericana (2021 - presente)</li>
-          <li>Curso de React - Codigofacilito (2022)</li>
-          <li>Curso de FastAPI - Codigofacilito (2023)</li>
-        </ul>
-        <h1>Habilidades</h1>
-        <ul className="skills-list">
-          <li>JavaScript</li>
-          <li>ReactJS</li>
-          <li>FastAPI</li>
-          <li>Node.js</li>
-          <li>Python</li>
-          <li>HTML/CSS</li>
-          <li>SQL</li>
-          <li>Git</li>
-          <li>Agile/Scrum</li>
-          <li>Gestión de Proyectos</li>
-        </ul>
-        <h1>Intereses</h1>
-        <ul className="interests-list">
-          <li>Desarrollo de Software</li>
-          <li>Inteligencia Artificial</li>
-          <li>Machine Learning</li>
-          <li>Blockchain</li>
-          <li>Desarrollo Web</li>
-          <li>Gestión de Proyectos</li>
-        </ul>
+        <div className={styles.educationContainer}>
+          {educacion.map((educacion) => (
+            <div className={styles.card} key={educacion.id}>
+              <h5>{educacion.Nombre}</h5>
+              <p>{educacion.Lugar}</p>
+              <p>{educacion.Año}</p>
+            </div>
+          ))}
+        </div>
 
+        <h1>Habilidades</h1>
+        <div className={styles.skillsContainer}>
+          {habilidades.map((habilidades) => (
+            <div className={styles.card} key={habilidades.id}>
+              <div className={styles.icon} dangerouslySetInnerHTML={{ __html: habilidades.SVG }}/>
+              <h4>{habilidades.Nombre}</h4>
+              <p>{habilidades.Nivel}</p>
+            </div>
+          ))}
+        </div>
+        <h1>Intereses</h1>
+        {intereses.map((intereses) => (
+          <div className="interests" key={intereses.id}>
+            <h4>{intereses.Nombre}</h4>
+            <p>{intereses.Descripción}</p>
+          </div>
+        ))}
       </section>
     );
   };
