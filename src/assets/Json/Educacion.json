@@ -1,20 +1,24 @@
 [
     {
+        "id": 0,
         "Nombre": "Ingeniería en Sistemas Computacionales",
         "Lugar": "Universidad Mesoamericana",
         "Año": "(2020 - 2024)"
     },
     {
+        "id": 1,
         "Nombre": "Certificado en React", 
         "Lugar": "CodigoFacilito",
         "Año": "(2024)"
     }, 
     {
+        "id":2,
         "Nombre": "Certificado en FastAPI",
         "Lugar": "CodigoFacilito",
         "Año": "(2025)"
     },
     {
+        "id": 3,
         "Nombre": "Ingles Básico",
         "Lugar": "Academia Europea",
         "Año": "(2025)"

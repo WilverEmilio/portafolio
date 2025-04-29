@@ -5,22 +5,26 @@ import styles from './About.module.css';
 
 const About = () => {
     return (
-      <section className="about">
-        <h1>Sobre mí</h1>
-        <p>Soy estudiante de Ingeniería en Sistemas con experiencia en el desarrollo de
-          aplicaciones web y gestión de proyectos de software. Experto en tecnologías
-          modernas como ReactJS y FastAPI, con habilidades en la creación de
-          soluciones eficientes y adaptables. Me apasiona aplicar mis conocimientos para
-          resolver problemas y aportar valor a los proyectos en los que participo.</p>
-        <p>Me gusta aprender y mejorar mis habilidades constantemente. Estoy abierto a
-          nuevas oportunidades y desafíos que me permitan crecer profesionalmente y
-          contribuir al éxito de los proyectos en los que participo.</p>
-        <p>En mi tiempo libre, disfruto de la lectura, la música y el deporte. Me gusta
-          mantenerme activo y aprender cosas nuevas. Siempre estoy buscando formas de
-          mejorar mis habilidades y conocimientos.</p>
-          <div className="about-photo">
-            <img src="/path/to/your/photo.jpg" />
+      <section className={styles.about}>
+        <div className={styles.aboutSection}>
+          <div className={styles.aboutContainer}>
+            <p>Soy estudiante de Ingeniería en Sistemas con experiencia en el desarrollo de
+              aplicaciones web y gestión de proyectos de software. Experto en tecnologías
+              modernas como ReactJS y FastAPI, con habilidades en la creación de
+              soluciones eficientes y adaptables. Me apasiona aplicar mis conocimientos para
+              resolver problemas y aportar valor a los proyectos en los que participo.</p>
+            <p>Me gusta aprender y mejorar mis habilidades constantemente. Estoy abierto a
+              nuevas oportunidades y desafíos que me permitan crecer profesionalmente y
+              contribuir al éxito de los proyectos en los que participo.</p>
+            <p>En mi tiempo libre, disfruto de la lectura, la música y el deporte. Me gusta
+              mantenerme activo y aprender cosas nuevas. Siempre estoy buscando formas de
+              mejorar mis habilidades y conocimientos.</p>
           </div>
+
+          <div className={styles.photo}>
+                <img src="/src/assets/img/foto.jpg" />
+          </div>
+        </div>
 
         <h1>Educación</h1>
         <div className={styles.educationContainer}>
@@ -44,17 +48,16 @@ const About = () => {
           ))}
         </div>
         <h1>Intereses</h1>
-        {intereses.map((intereses) => (
-          <div className="interests" key={intereses.id}>
-            <h4>{intereses.Nombre}</h4>
-            <p>{intereses.Descripción}</p>
-          </div>
-        ))}
+        <div className={styles.interestsContainer}>
+          {intereses.map((intereses) => (
+            <div className={styles.card} key={intereses.id}>
+              <h4>{intereses.Nombre}</h4>
+              <p>{intereses.Descripción}</p>
+            </div>
+          ))}
+        </div>
       </section>
     );
   };
   
   export default About;
-  
-  // Hacer un JSON para cada uno de los apartados de la sección de About, y luego importar esos JSONs en el componente About.jsx.
-  // Para que todo sea más dinámico y fácil de mantener. Para que si se quiere cambiar algo, solo se cambie en el JSON y no en el código.

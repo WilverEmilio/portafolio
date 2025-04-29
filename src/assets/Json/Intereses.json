@@ -1,38 +1,17 @@
 [
     {
+        "id": 0,
         "Nombre": "Desarrollo de Software",
         "Descripción": "Creación de aplicaciones y sistemas informáticos para resolver problemas específicos."
     },
     {
-        "Nombre": "Inteligencia Artificial",
-        "Descripción": "Desarrollo de sistemas que simulan la inteligencia humana para realizar tareas específicas."
-    },
-    {
-        "Nombre": "Ciberseguridad",
-        "Descripción": "Protección de sistemas y redes contra ataques cibernéticos y amenazas digitales."
-    },
-    {
+        "id": 1,
         "Nombre": "Desarrollo Web",
         "Descripción": "Creación y mantenimiento de sitios web y aplicaciones web."
     },
     {
+        "id": 2,
         "Nombre": "Desarrollo Móvil",
         "Descripción": "Creación de aplicaciones para dispositivos móviles como smartphones y tablets."
-    },
-    {
-        "Nombre": "Big Data",
-        "Descripción": "Análisis y procesamiento de grandes volúmenes de datos para obtener información valiosa."
-    },
-    {
-        "Nombre": "Blockchain",
-        "Descripción": "Tecnología que permite la creación de registros digitales seguros y descentralizados."
-    },
-    {
-        "Nombre": "Realidad Aumentada",
-        "Descripción": "Integración de elementos virtuales en el mundo real a través de dispositivos tecnológicos."
-    },
-    {
-        "Nombre": "Realidad Virtual",
-        "Descripción": "Creación de entornos virtuales inmersivos para simular experiencias reales."
     }
 ]
