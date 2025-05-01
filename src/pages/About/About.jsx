@@ -22,7 +22,7 @@ const About = () => {
           </div>
 
           <div className={styles.photo}>
-                <img src="/src/assets/img/foto.jpg" />
+                <img src="public/img/foto.jpg" />
           </div>
         </div>
 
